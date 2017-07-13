@@ -12,7 +12,7 @@ add_action( 'wp_enqueue_scripts', 'da_enqueue_assets' );
  */
 function da_enqueue_assets() {
 
-	wp_enqueue_style( 'da-google-fonts', 'http://fonts.googleapis.com/css?family=Montserrat:300|Open Sans:400,400i,700', false );
+	wp_enqueue_style( 'da-google-fonts', 'https://fonts.googleapis.com/css?family=Montserrat:300|Open Sans:400,400i,700', false );
 	wp_enqueue_style( 'fancybox-style', get_stylesheet_directory_uri() . '/css/jquery.fancybox.css' );
 
 	// * Load mobile responsive menu

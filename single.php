@@ -59,7 +59,7 @@ function da_add_author_bio() {
 					}
 	    			echo '</section><!-- .bio -->';
 	    	}
-	    	echo '<a href="' . esc_url( $user_posts ) . '" class="author-link">View all articles by ' . esc_url( $nickname ) . '</a>';
+	    	echo '<a href="' . esc_url( $user_posts ) . '" class="author-link">View all articles by ' . esc_html( $nickname ) . '</a>';
 	    	?>
 	    </div>
 	<?php endforeach;
